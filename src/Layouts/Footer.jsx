@@ -9,13 +9,11 @@ const Footer = () => {
 
   const scrollToTop = () => {
 
-    window.scrollTo({
-      top:0,
-      behavior: "smooth",
-    });
+    const section = document.getElementById("navbar");
+    section.scrollIntoView({ behavior: "smooth" });
 
   };
-  
+
 
   return (
     <div id='cantact' className='bg-black-10 space-y-8 py-10'>

@@ -18,7 +18,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="text-white uppercase flex flex-col lg:flex-row w-full">
+        <nav id="navbar" className="text-white uppercase flex flex-col lg:flex-row w-full">
             <div className="lg:w-[87vw] py-8 bg-gray-900 flexBetween p-4">
                 <Link to="/" className="flexCenter space-x-3">
                     <img src="/src/assets/logo.svg" className="h-8" alt="Logo" />
@@ -28,7 +28,7 @@ const Navbar = () => {
 
                     {
                         NAV_LINKS.map((link, index) => (
-                            <button onClick={()=>handleMenuClick(link.href)} key={index} className="text-lg text-white flexCenter space-x-3">
+                            <button onClick={()=>handleMenuClick(link.href)} key={index} className="text-lg text-white flexCenter space-x-3 hover:text-green-90">
                                 <p>{link.label}</p>
                                 <IoChevronDownOutline className="h-6 w-6" />
                             </button>
