@@ -17,7 +17,7 @@ body {
 @layer components {
 
     .max-container {
-        @apply max-w-[1440px];
+        @apply max-w-[1200px];
     }
 
     .padding-container {
@@ -41,15 +41,23 @@ body {
     }
 
     .text-20 {
-        @apply text-[20px] font-[250];
+        @apply text-[20px] font-[400] text-gray-500;
+    }
+
+    .text-18 {
+        @apply text-[21px] font-[300];
     }
 
     .text-16 {
         @apply text-[16px] font-[300];
     }
 
+    .text-14 {
+        @apply text-[14px] font-[300];
+    }
+
     .text-bold-20 {
-        @apply text-[20px] font-[700];
+        @apply text-[20px] font-[700] ;
     }
 
     .flexCenter {
@@ -58,6 +66,10 @@ body {
 
     .flexBetween {
         @apply flex items-center justify-between;
+    }
+
+    .btn-full {
+        @apply rounded-full px-4 py-2 
     }
 
 
