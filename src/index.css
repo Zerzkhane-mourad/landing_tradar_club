@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+@layer components {
+
+    .max-container {
+        @apply max-w-[1440px];
+    }
+
+    .padding-container {
+        @apply px-6 lg:px-20 ;
+    }
+
+    .text-50 {
+        @apply text-[50px] font-[700];
+    }
+
+    .text-55 {
+        @apply text-[55px] font-[900];
+    }
+
+    .text-40 {
+        @apply text-[40px] font-[700];
+    }
+
+    .text-30 {
+        @apply text-[30px] font-[900];
+    }
+
+    .text-20 {
+        @apply text-[20px] font-[250];
+    }
+
+    .text-16 {
+        @apply text-[16px] font-[300];
+    }
+
+    .text-bold-20 {
+        @apply text-[20px] font-[700];
+    }
+
+    .flexCenter {
+        @apply flex items-center justify-center;
+    }
+
+    .flexBetween {
+        @apply flex items-center justify-between;
+    }
+
+
+    .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+    }
+
+    .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+}
