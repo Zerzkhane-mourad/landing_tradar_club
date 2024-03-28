@@ -1,7 +1,7 @@
 
 const Services = () => {
     return (
-        <div id="services" className="h-screen w-screen bg-cover bg-bg-img-2 bg-no-repeat flex flex-col justify-center">
+        <div id="services" className="h-screen  bg-cover bg-bg-img-2 bg-no-repeat flex flex-col justify-center">
             <div className="w-full flex items-center justify-around">
 
                 <div className="w-1/3 flex flex-col space-y-5">
