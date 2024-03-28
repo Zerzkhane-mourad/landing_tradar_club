@@ -1,7 +1,8 @@
 
 const News = () => {
     return (
-        <div className=" flex items-center justify-around mt-14">
+
+        <div id="news" className=" flex items-center justify-around my-10">
 
             <div className="flex flex-col space-y-3" >
                 <div className="flex items-center justify-between space-x-5">

@@ -44,6 +44,10 @@ body {
         @apply text-[20px] font-[400] text-gray-500;
     }
 
+    .text-24 {
+        @apply text-[24px] font-[900] text-green-90;
+    }
+
     .text-18 {
         @apply text-[21px] font-[300];
     }

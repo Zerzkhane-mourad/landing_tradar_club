@@ -1,7 +1,7 @@
 
 const AbouUs = () => {
     return (
-        <div className="w-full flex items-center justify-around">
+        <div id="about_us" className="w-full flex items-center justify-around">
             <div className="w-1/3 flex flex-col space-y-5">
                 <p className="text-20 pt-10">About us</p>
                 <p className="text-55">PEAQOCK is a member <br /> driven network</p>

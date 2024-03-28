@@ -1,9 +1,9 @@
 export const NAV_LINKS = [
 
-    { href: '', label: 'ABOUT' },
-    { href: '', label: 'Membership' },
-    { href: '', label: 'News & Events' },
-    { href: '', label: 'Contact us' },
+    { href: 'about_us', label: 'ABOUT' },
+    { href: 'membership', label: 'Membership' },
+    { href: 'news', label: 'News & Events' },
+    { href: 'cantact', label: 'Contact us' },
 
 ]
 

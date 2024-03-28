@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 const MemberShip = () => {
     return (
 
-        <div className="w-full flexCenter mt-10">
+        <div id="membership" className="w-full flexCenter mt-10">
             <div className="w-1/2 flex flex-col justify-center items-center space-y-5">
                 <p className="text-20 pt-10 uppercase">membership</p>
                 <p className="text-55">PEAQOCK Membership Packages</p>
